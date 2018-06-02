@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Most Wanted Regular";
+    src: url('../Fonts/Most_Wazted_Regular.otf');
+  }
+.menu p{
+    font-family:"Most Wanted Regular", serif;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+body{
+    background-color: #f8f8f8;
+}
+
+a{
+    text-decoration: none;
+}
+.menu li {
+   text-align: center;
+   list-style-type: none
+}
+.menu a{
+ 
+   color:green;
+   font-size: 16px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   font-style: oblique;
+   font-variant: small-caps;
+   font-weight: bold;
+}
+.briefDescription{
+   color:#707070;
+   font-size: 14px;
+   font-style: italic;
+   line-height: 16px;
+ 
+}
+.description{
+   color: #484343;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;
+}
+.characteristic{
+   color: #04115ef3;
+   font-size: 14px;
+   font-weight: inherit;
+   line-height: 15px;
+   background-color: rgba(0, 0, 0, 0.034);
+   list-style-image: url("../Images/arrow.png")
+}
+.menu fieldset{
+    text-align: center;
+}
+.menu input[type="text"], textarea{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#0b006bf3;
+  font-weight: bold;
+  font-size: 18px;
+    width: 300px;
+    height: 25px;
+}
+.menu textarea[name="text"]{
+    height: 250px;
+}
+h2{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+h1{
+    text-align: center;
+}
+.product img{
+    width: 900px;
+    border: solid rgba(5, 5, 5, 0.404);
+}
+
+.product h1+a img{   
+    width: 500px;   
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-family:"Most Wanted Regular", serif;
+}
