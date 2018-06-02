@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>MyShop contacts</title>
-        <link rel="stylesheet" type="text/css" href="Styles/style.css">
+        <link rel="stylesheet" href="Styles/style.css">
     </head>
     <body>
         <div class="menu">
@@ -19,23 +19,23 @@
                     <a href="contacts.html">Контакты</a>
                 </li>
             </ul>
+            <hr>
+            <h1>Контакты</h1>
+            <form>
+                <fieldset>
+                    <legend>
+                        <strong>Остались вопросы? Напишите нам!</strong>
+                    </legend>
+                    <input type="text" name="Имя" placeholder="Имя"><br>
+                    <input type="text" name="Электронна почта" placeholder="Электронна почта"><br>
+                    <input type="text" name="Тема" placeholder ="Тема"><br>
+                    <label for="textQuestion" >Суть сообщения</label><br>
+                    <textarea name="text" id="textQuestion"></textarea><br>
+                    <input type="submit" value="Отправить" id="sendQuestion">
+                </fieldset>
+            </form>
         </div>
         
-        <hr>
-        <h1>Контакты</h1>
-        <form>
-            <fieldset>
-                <legend>
-                    <strong>Остались вопросы? Напишите нам!</strong>
-                </legend>
-                <input type="text" name="Имя" placeholder="Имя"><br>
-                <input type="text" name="Электронна почта" placeholder="Электронна почта"><br>
-                <input type="text" name="Тема" placeholder ="Тема"><br>
-                <label for="textQuestion" >Суть сообщения</label><br>
-                <textarea name="text" id="textQuestion"></textarea><br>
-                <input type="submit" value="Отправить" id="sendQuestion">     
-            </fieldset>
-        </form>
         <h2>Адрес</h2>
         <p>
            <strong>Телефон:</strong>
