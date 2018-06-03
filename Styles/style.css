@@ -7,13 +7,15 @@ h1,footer,
 .menu fieldset,
 .menu a,
 .menu li,
-.menu p {
+.menu p,
+div,
+footer {
     text-align: center;
 }
 
 .menu p {
     font: 100px "Most Wanted Regular", serif;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -25,14 +27,14 @@ a {
     text-decoration: none;
 }
 
-.menu li {
+.menu li,
+ul li {
    list-style-type: none
 }
 
 .menu a { 
    color:green;
    font: 16px Georgia, 'Times New Roman', Times, serif;
-   font-family: Georgia, 'Times New Roman', Times, serif;
    font-style: oblique;
    font-variant: small-caps;
    font-weight: bold;
@@ -44,7 +46,7 @@ a {
    font-style: italic;
 }
 
-.description{
+.description {
    color: #484343;
    font-size: 16px;
    font-weight: 400;
@@ -61,7 +63,8 @@ a {
    list-style-image: url("../Images/arrow.png")
 }
 
-.menu input[type="text"], textarea {
+.menu input[type="text"],
+textarea {
 
     color:#0b006bf3;
     font: bold 18px Verdana, Geneva, Tahoma, sans-serif;
@@ -90,6 +93,6 @@ h2 {
 }
 
 footer {
-    text-align: center;
+    background: url("../Images/backGround.png");
     font:20px "Most Wanted Regular", serif;
 }
