@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="../Styles/style.css">
     </head>
     <body class="product">
+        <img src="../Images/logo.jpg" alt="MyShopLogo">
+        <strong> MyShop </strong>
         <div class="menu">
-            <p>MyShop</p>
             <ul>
                 <li>
                     <a href="../index.html">Главная</a>
@@ -60,14 +61,78 @@
         </p>
 
         <h2 id="p2">Технические характеристика товара:</h2>
+        <table>
+            <caption>Технические характеристики</caption>
+            <thead>
+                <tr>
+                    <th>Наименование</th> 
+                    <th>Значение</th>
+                    <th>Описание</th>
+                    <th>Единици измерения</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Тип разъема:</td>
+                    <td>Socket AM4</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                    <tr>
+                    <td>Количество планок оперативной памяти</td>
+                    <td>4</td>
+                    <td>-</td>
+                    <td>штук</td>
+                </tr>
+                    <tr>
+                    <td>Максимальный объем оперативной памяти</td>
+                    <td colspan="2"> 64 ГБ (2133 / 2400 / 2666 / 2800 (О.С.) / 2933 (О.С.)3000 (О.С.) /
+                         3200 (О.С.) МГц)<br>
+                        При установке процессора AMD Ryzen 1st/2nd Generation
+                        AMD Ryzen with Radeon Vega Graphics 4 ГБ (2133 / 2400 МГц)
+                        при установке процессора AMD 7th Generation A-Series/Athlon X4</td>
+                    <td>Гигабайт</td>
+                </tr>
+                    <tr>
+                    <td>Количество разъемов M.2 (NGFF)</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>штук</td>
+                </tr>
+                    <tr>
+                    <td>Количество разъемов SATA II</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>штук</td>
+                </tr>
+                    <tr>
+                    <td>Количество разъемов SATA III:</td>
+                    <td>3</td>
+                    <td>-</td>
+                    <td>штук</td>
+                </tr>
+                    <tr>
+                    <td>Физические размеры</td>
+                    <td>30.5 х 24.4 см</td>
+                    <td></td>
+                    <td>сантиметр</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">RowSpan+ColSpan</td>
+                    <td>No rowspan</td>
+                    <td rowspan="2">RowSpan</td>
+                </tr>
+                <tr>
+                    <td >No Colspan</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Дополнительные характеристики</h3>
         <ol class="characteristic">
             <li>
                 <b>Материнская плата:</b>
                 Asus Prime X470-Pro (sAM4, AMD X470, PCI-Ex16)
-            </li>
-            <li>
-                <b>Тип разъема:</b>
-                Socket AM4
             </li>
             <li>
                 <b>Чипсет (Северный мост):</b>
@@ -90,10 +155,6 @@
                 Нет
             </li>
             <li>
-                <b>Количество разъемов M.2 (NGFF):</b>
-                1
-            </li>
-            <li>
                 <b>Поддержка процессоров:</b>
                 AMD Ryzen 1st/2nd Generation / Ryzen with Radeon Vega Graphics /
                 7th Generation A-series / Athlon X4
@@ -101,13 +162,6 @@
             <li>
                 <b>Контроллер RAID:</b>
                 0, 1, 10
-            </li>
-            <li>
-                <b> Максимальный объем оперативной памяти:</b>
-                64 ГБ (2133 / 2400 / 2666 / 2800 (О.С.) / 2933 (О.С.) /
-                3000 (О.С.) / 3200 (О.С.) МГц) при установке процессора AMD Ryzen 1st/2nd Generation /
-                AMD Ryzen with Radeon Vega Graphics 4 ГБ (2133 / 2400 МГц) при установке процессора AMD 7th Generation
-                A-Series/Athlon X4
             </li>
             <li>
                 <b>Коннектор питания:</b>
@@ -118,23 +172,11 @@
                 8-канальный HDA кодек Realtek S1220A
             </li>
             <li>
-                <b>Количество разъемов SATA II:</b>
-                Нет
-            </li>
-            <li>
-                <b> Количество разъемов SATA III:</b>
-                6
-            </li>
-            <li>
                 <b>Внешние разъемы:</b>
                 1 x PS/2 комбинированный порт для клавиатуры/мыши, 
                 2 x USB 3.1 Type-A (10 Гбит/с), 5 x USB 3.1 Type-A (5 Гбит/с), 1 x USB 3.1 Type-C (5 Гбит/с),
                 1 x DisplayPort, 1 x HDMI, 1 x LAN (RJ-45), 1 x оптический S/PDIF выход, 5 х аудио разъемов.
                 <b>Видеовыходы будут работать только в том случае, если процессор имеет встроенное графическое ядро.</b>
-            </li>
-            <li>
-                <b>Физические размеры:</b>
-                30.5 х 24.4 см
             </li>
             <li>
                 <b>Гарантия:</b>
@@ -187,8 +229,8 @@
         </ul>
 
         <hr>
-        <footer title="MyShop">
+         <div class="footer">
             &copy;Все права защищены
-        </footer>
+        </div>
     </body>
 </html>

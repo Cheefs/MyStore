@@ -5,15 +5,12 @@
 
 h1,footer,
 .menu fieldset,
-.menu a,
-.menu li,
-.menu p,
 div,
 footer {
     text-align: center;
 }
 
-.menu p {
+body img+strong {
     font: 100px "Most Wanted Regular", serif;
     font-weight: bold;
     margin: 0;
@@ -27,55 +24,6 @@ a {
     text-decoration: none;
 }
 
-.menu li,
-ul li {
-   list-style-type: none
-}
-
-.menu a { 
-   color:green;
-   font: 16px Georgia, 'Times New Roman', Times, serif;
-   font-style: oblique;
-   font-variant: small-caps;
-   font-weight: bold;
-}
-
-.briefDescription {
-   color:#707070;
-   font: 14px/16px;
-   font-style: italic;
-}
-
-.description {
-   color: #484343;
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 24px;
-   text-align: left;
-}
-
-.characteristic {
-   color: #04115ef3;
-   font-size: 14px;
-   font-weight: inherit;
-   line-height: 15px;
-   background-color: rgba(0, 0, 0, 0.034);
-   list-style-image: url("../Images/arrow.png")
-}
-
-.menu input[type="text"],
-textarea {
-
-    color:#0b006bf3;
-    font: bold 18px Verdana, Geneva, Tahoma, sans-serif;
-    width: 300px;
-    height: 25px;
-}
-
-.menu textarea[name="text"]{
-    height: 250px;
-}
-
 h2 {
     color: black;
     font-size: 18px;
@@ -83,16 +31,133 @@ h2 {
     background-color: #eaeaea;
 }
 
-.product img {
-    width: 900px;
-    border: solid rgba(5, 5, 5, 0.404);
-}
-
-.product h1+a img {   
-    width: 500px;   
-}
-
-footer {
+.footer {
+    height: 100px;
     background: url("../Images/backGround.png");
     font:20px "Most Wanted Regular", serif;
+}
+
+/* Menu + Contacts.html Styles */
+.menu {
+    text-align: left;
+}
+
+.menu input:nth-of-type(2):focus {
+    color: #eaeaea;
+    background-color: #000000f3;
+}
+
+body>img {
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+}
+
+.menu li,
+ul li {
+   list-style-type: none
+}
+
+.menu a:hover {
+    color:orangered;
+}
+
+.menu a {
+   color:green;
+   font: 20px Georgia, 'Times New Roman', Times, serif;
+   font-style: oblique;
+   font-variant: small-caps;
+   font-weight: bold;
+}
+
+.menu input,
+textarea {
+    color:#0b006bf3;
+    font: bold 18px Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 25px;
+}
+
+.menu textarea[name="text"] {
+    height: 250px;
+}
+
+input,
+textarea {
+    text-transform: capitalize;
+}
+
+/* Product Styles */
+
+.product p:first-letter {
+    font: 50px "Times New Roman", serif;
+    font-style: oblique;
+    color: rebeccapurple;
+}
+
+
+.product img:hover {
+ border-color:transparent;
+}
+
+.product a img {
+    width: 900px;
+    border: solid 10px rgba(5, 5, 5, 0.404);
+}
+
+.product h1+a img {
+    width: 500px;
+}
+
+.briefDescription {
+    color:#707070;
+    font: 14px/16px Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+ }
+ 
+ .description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+ }
+ 
+ .characteristic {
+    color: #04115ef3;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: 15px;
+    background-color: rgba(0, 0, 0, 0.034);
+    list-style-image: url("../Images/arrow.png")
+ }
+
+/* Table Styles */
+
+tbody>tr:first-of-type {
+    height: 100px;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    vertical-align: middle;
+    height: 50px;
+    text-align: center;
+}
+
+th:nth-of-type(-n+4) {
+    height: 50px;
+    color: white;
+    background-color: rgb(123, 119, 129);
+}
+
+ table {
+    border-collapse: collapse;
+}
+
+caption {
+    border: 1px solid black;
+    border-bottom: none;
 }

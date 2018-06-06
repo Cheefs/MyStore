@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="../Styles/style.css">
     </head>
     <body class="product">
+        <img src="../Images/logo.jpg" alt="MyShopLogo">
+        <strong> MyShop </strong>
         <div class="menu">
-            <p>MyShop</p>
             <ul>
                 <li>
                     <a href="../index.html">Главная</a>
@@ -65,26 +66,72 @@
         </p>
 
         <h2 id="p2">Технические характеристика товара:</h2>
+
+        <table>
+            <caption>Технические характеристики</caption>
+            <thead>
+                <tr>
+                    <th>Наименование</th> 
+                    <th>Значение</th>
+                    <th>Описание</th>
+                    <th>Единици измерения</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Объем памяти</td>
+                    <td>32 ГБ</td>
+                    <td>-</td>
+                    <td>Гигабайт</td>
+                </tr>
+                <tr>
+                    <td>Напряжение питания</td>
+                    <td>1.2 В</td>
+                    <td>-</td>
+                    <td>Вольт</td>
+                </tr>
+                <tr>
+                    <td>Частота памяти</td>
+                    <td>3200 МГц</td>
+                    <td>-</td>
+                    <td>Мегагерц</td>
+                </tr>
+                <tr>
+                    <td>Эффективная пропускная способность:</td>
+                    <td>23500 МБ/с</td>
+                    <td>-</td>
+                    <td>Мегабит в секунду</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">RowSpan+ColSpan</td>
+                    <td>No rowspan</td>
+                    <td rowspan="2">RowSpan</td>
+                </tr>
+                <tr>
+                    <td >No Colspan</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Дополнительные характеристики</h3>
         <ul class="characteristic">
             <li>
                 <strong>Оперативная память:</strong>
                 Оперативная память Kingston DDR4-3200 32764MB PC4-25600 (Kit of 2x16384)
                 HyperX Fury White (HX432C18FWK2/32)
             </li>
-            <li>Объем памяти
-                    32 ГБ</li>
-            <li>Тип памяти
-                    DDR4 SDRAM</li>
-            <li>Напряжение питания
-                    1.2 В</li>
-            <li>Радиаторы на планках
-                    Есть</li>
-            <li>Частота памяти
-                    3200 МГц</li>
-            <li>Охлаждение
-                    Низкопрофильный радиатор ассиметричной формы</li>
-            <li>Эффективная пропускная способность
-                    23500 МБ/с</li>
+            <li>
+                <strong>Тип памяти:</strong>
+                DDR4 SDRAM
+            </li>
+            <li>
+                <strong>Радиаторы на планках</strong>
+                Есть
+            </li>
+            <li>
+                <strong>Охлаждение:</strong>
+                Низкопрофильный радиатор ассиметричной формы
+            </li>
             <li><strong>Схема таймингов памяти:</strong>
                 <ol>
                     <li>
@@ -171,8 +218,8 @@
         </ul>
         
         <hr>
-        <footer>
+         <div class="footer">
             &copy;Все права защищены
-        </footer>
+        </div>
     </body>
 </html>
