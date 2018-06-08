@@ -37,6 +37,10 @@ h2 {
 }
 
 /* Menu + Contacts.html Styles */
+
+.header {
+    background-image: url("../Images/menuBg.jpg");
+}
 .menu {
     text-align: left;
 }
@@ -63,7 +67,7 @@ ul li {
 }
 
 .header .menu a {
-   color:green;
+   color:rgb(28, 155, 2);
    font: 20px Georgia, 'Times New Roman', Times, serif;
    font-style: oblique;
    font-variant: small-caps;
@@ -81,78 +85,4 @@ ul li {
 
 .feadback textarea[name="text"] {
     height: 250px;
-}
-
-/* Product Styles */
-
-.product p:first-letter {
-    font: 50px "Times New Roman", serif;
-    font-style: oblique;
-    color: rebeccapurple;
-}
-
-
-.product img:hover {
- border-color:transparent;
-}
-
-.product a img {
-    width: 900px;
-    border: solid 10px rgba(5, 5, 5, 0.404);
-}
-
-.product h1+a img {
-    width: 500px;
-}
-
-.briefDescription {
-    color:#707070;
-    font: 14px/16px Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
- }
- 
- .description {
-    color: #484343;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
- }
- 
- .characteristic {
-    color: #04115ef3;
-    font-size: 14px;
-    font-weight: inherit;
-    line-height: 15px;
-    background-color: rgba(0, 0, 0, 0.034);
-    list-style-image: url("../Images/arrow.png")
- }
-
-/* Table Styles */
-
-tbody>tr:first-of-type {
-    height: 100px;
-}
-
-table th,
-table td {
-    border: 1px solid black;
-    vertical-align: middle;
-    height: 50px;
-    text-align: center;
-}
-
-th:nth-of-type(-n+4) {
-    height: 50px;
-    color: white;
-    background-color: rgb(123, 119, 129);
-}
-
- table {
-    border-collapse: collapse;
-}
-
-caption {
-    border: 1px solid black;
-    border-bottom: none;
 }

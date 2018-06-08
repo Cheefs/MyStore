@@ -1,0 +1,26 @@
+tbody>tr:first-of-type {
+    height: 100px;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+    vertical-align: middle;
+    height: 50px;
+    text-align: center;
+}
+
+th:nth-of-type(-n+4) {
+    height: 50px;
+    color: white;
+    background-color: rgb(123, 119, 129);
+}
+
+ table {
+    border-collapse: collapse;
+}
+
+caption {
+    border: 1px solid black;
+    border-bottom: none;
+}
