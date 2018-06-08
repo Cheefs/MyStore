@@ -4,8 +4,7 @@
 }
 
 h1,footer,
-.menu fieldset,
-div,
+.feadback,
 footer {
     text-align: center;
 }
@@ -42,28 +41,28 @@ h2 {
     text-align: left;
 }
 
-.menu input:nth-of-type(2):focus {
+.feadback input:nth-of-type(2):focus {
     color: #eaeaea;
     background-color: #000000f3;
 }
 
-body>img {
+.header img {
     align-content: center;
     width: 100px;
     height: 100px;
     border-radius: 70px;
 }
 
-.menu li,
+.header .menu li,
 ul li {
    list-style-type: none
 }
 
-.menu a:hover {
+.header .menu a:hover {
     color:orangered;
 }
 
-.menu a {
+.header .menu a {
    color:green;
    font: 20px Georgia, 'Times New Roman', Times, serif;
    font-style: oblique;
@@ -71,21 +70,17 @@ ul li {
    font-weight: bold;
 }
 
-.menu input,
-textarea {
+.feadback input,
+.feadback textarea {
     color:#0b006bf3;
     font: bold 18px Verdana, Geneva, Tahoma, sans-serif;
     width: 300px;
     height: 25px;
+    text-transform: capitalize
 }
 
-.menu textarea[name="text"] {
+.feadback textarea[name="text"] {
     height: 250px;
-}
-
-input,
-textarea {
-    text-transform: capitalize;
 }
 
 /* Product Styles */
