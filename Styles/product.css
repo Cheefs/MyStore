@@ -13,9 +13,12 @@
     border: solid 10px rgba(5, 5, 5, 0.404);
 }
 
+.productImage {
+    width: 45%;
+}
 .productImage a img {
     float: left;
-    width: 300px;
+    width: 100%;
 }
 .briefDescription h2{
     margin-top: 0;
@@ -27,6 +30,11 @@
   width: 100px;
   height: 30px;
 }
+.fastNavigation li {
+    font: 20px "Times New Roman", serif;
+    float: left;
+    margin: 10px;
+}
 
 .briefDescription input:hover {
     background:-webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#e5ff00 100%);
@@ -35,10 +43,10 @@
     background:-webkit-linear-gradient(top, #f8f8f8  0%,#f1f1f1 0%,#e1e1e1 1%,#3cff00 100%);
 }
 .briefDescription {
-    padding:0 10px;
-    margin: 0 5px;
+    padding-left:1%;
+    margin-left: 1%;
     float: left;
-    width: 500px;
+    width: 50%;
     color:#707070;
     font: 14px/16px Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;

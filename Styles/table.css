@@ -17,6 +17,7 @@ th:nth-of-type(-n+4) {
 }
 
  table {
+     width: 100%;
     border-collapse: collapse;
 }
 

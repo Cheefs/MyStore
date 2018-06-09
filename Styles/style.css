@@ -68,7 +68,6 @@ h2 {
 .feadback textarea[name="text"] {
     height: 250px;
 }
-
 .header strong {
 
     font: 90px "Most Wanted Regular", serif;
@@ -94,6 +93,47 @@ h2 {
     margin: 0 auto; 
     width: 900px;
 }
+.containerCatalog {
+    background-color: #f3e3e36c;
+ float: left;
+}
+
+.productUnit {
+    width: 289px;
+    height: 250px;
+    float: left;
+    margin: 15px;
+    background-color: white;
+    border:0.2px solid black;
+    border-radius: 20%;
+}
+.productUnit img {
+    width:95%;
+    height: 70%;
+}
+.productUnit:nth-child(3n) {
+    margin-right: 0;
+}
+.productUnit:nth-child(1n) {
+    margin-left: 0;
+}
+
+.productUnit strong {
+    color:black;
+}
+
+.productUnit strong:hover {
+    color:rgb(255, 94, 0);
+}
+
+/* 
+.productUnit:first-child {
+    background: #ff0000;
+}
+
+.productUnit:last-child {
+    background: #cc5a5a;
+} */
 
 .footer {
     height: 100px;
