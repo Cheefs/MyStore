@@ -1,3 +1,4 @@
+
 .product p:first-letter {
     font: 50px "Times New Roman", serif;
     font-style: oblique;
@@ -12,22 +13,42 @@
     border: solid 10px rgba(5, 5, 5, 0.404);
 }
 
-.product h1+a img {
-    width: 500px;
+.productImage a img {
+    float: left;
+    width: 300px;
+}
+.briefDescription h2{
+    margin-top: 0;
+    padding-top: 0;
 }
 
+.briefDescription input {
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
+  width: 100px;
+  height: 30px;
+}
+
+.briefDescription input:hover {
+    background:-webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#e5ff00 100%);
+}
+.briefDescription input:active{
+    background:-webkit-linear-gradient(top, #f8f8f8  0%,#f1f1f1 0%,#e1e1e1 1%,#3cff00 100%);
+}
 .briefDescription {
+    padding:0 10px;
+    margin: 0 5px;
+    float: left;
+    width: 500px;
     color:#707070;
     font: 14px/16px Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
  }
- 
+
  .description {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;
  }
  
  .characteristic {

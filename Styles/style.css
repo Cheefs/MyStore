@@ -9,12 +9,12 @@ footer {
     text-align: center;
 }
 
-body img+strong {
-    font: 100px "Most Wanted Regular", serif;
-    font-weight: bold;
-    margin: 0;
+h2 {
+    clear: both;
 }
-
+ul li {
+    list-style-type: none
+}
 body {
     background-color: #f8f8f8;
 }
@@ -30,48 +30,30 @@ h2 {
     background-color: #eaeaea;
 }
 
-.footer {
-    height: 100px;
-    background: url("../Images/backGround.png");
-    font:20px "Most Wanted Regular", serif;
-}
-
 /* Menu + Contacts.html Styles */
-
-.header {
-    background-image: url("../Images/menuBg.jpg");
-}
-.menu {
-    text-align: left;
-}
-
 .feadback input:nth-of-type(2):focus {
     color: #eaeaea;
     background-color: #000000f3;
 }
 
-.header img {
-    align-content: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 70px;
+.menu li {
+    float: left;
+    margin: 5px;
+    list-style-type: none
 }
-
-.header .menu li,
-ul li {
-   list-style-type: none
+.menu ul {
+    margin: 0;
 }
-
-.header .menu a:hover {
+.menu a:hover {
     color:orangered;
 }
 
-.header .menu a {
-   color:rgb(28, 155, 2);
-   font: 20px Georgia, 'Times New Roman', Times, serif;
-   font-style: oblique;
-   font-variant: small-caps;
-   font-weight: bold;
+.menu a {
+    color:rgb(25, 0, 253);
+    font: 20px Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: bold;
 }
 
 .feadback input,
@@ -85,4 +67,42 @@ ul li {
 
 .feadback textarea[name="text"] {
     height: 250px;
+}
+
+.header strong {
+
+    font: 90px "Most Wanted Regular", serif;
+    margin: 0;
+}
+.header img {
+    margin:20px 0 0 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+}
+
+.menu  {
+    float:right;
+    height: 100px;
+}
+.header {
+    height: 150px;
+    background-image: url("../Images/menuBg.jpg");
+}
+
+.conteiner {
+    margin: 0 auto; 
+    width: 900px;
+}
+
+.footer {
+    height: 100px;
+    /* background: url("../Images/backGround.png"); */
+    background-color: #2c16aa23;
+    font:20px "Most Wanted Regular", serif;
+}
+
+.footer b{
+    float:right;
+    margin: 30px;
 }
