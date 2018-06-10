@@ -7,7 +7,21 @@
 .product img:hover {
  border-color:transparent;
 }
+.btnBuy {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    background: -webkit-linear-gradient(top, #ffffff 0%,#b3b2b2 50%,#bdbcbc 51%,#eee7e7 100%);
+}
 
+.btnBuy:hover {
+    background:-webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#e5ff00 100%);
+}
+.btnBuy:active{
+    background:-webkit-linear-gradient(top, #f8f8f8  0%,#f1f1f1 0%,#e1e1e1 1%,#3cff00 100%);
+}
 .product a img {
     width: 900px;
     border: solid 10px rgba(5, 5, 5, 0.404);
@@ -19,32 +33,23 @@
 .productImage a img {
     float: left;
     width: 100%;
+    margin-bottom: 5%;
 }
 .briefDescription h2{
     margin-top: 0;
     padding-top: 0;
 }
 
-.briefDescription input {
-    background: -webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%);
-  width: 100px;
-  height: 30px;
-}
 .fastNavigation li {
     font: 20px "Times New Roman", serif;
     float: left;
     margin: 10px;
 }
 
-.briefDescription input:hover {
-    background:-webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#e5ff00 100%);
-}
-.briefDescription input:active{
-    background:-webkit-linear-gradient(top, #f8f8f8  0%,#f1f1f1 0%,#e1e1e1 1%,#3cff00 100%);
-}
 .briefDescription {
     padding-left:1%;
     margin-left: 1%;
+  margin-bottom: 2%;
     float: left;
     width: 50%;
     color:#707070;

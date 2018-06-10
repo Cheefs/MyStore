@@ -2,6 +2,10 @@
     font-family: "Most Wanted Regular";
     src: url('../Fonts/Most_Wazted_Regular.otf');
 }
+@font-face {
+    font-family: "Road Rage Regular";
+    src: url('../Fonts/Road_Rage_Regular.ttf');
+}
 
 h1,footer,
 .feadback,
@@ -24,6 +28,7 @@ a {
 }
 
 h2 {
+    margin: 5px;
     color: black;
     font-size: 18px;
     font-weight: 400;
@@ -69,15 +74,18 @@ h2 {
     height: 250px;
 }
 .header strong {
-
-    font: 90px "Most Wanted Regular", serif;
-    margin: 0;
+    display: block;
+    position: absolute;
+    color:#ff0000;
+    top: 25px;
+    left: 210px;
+    font: 50px "Road Rage Regular",serif;
 }
 .header img {
-    margin:20px 0 0 50px;
-    width: 80px;
-    height: 80px;
-    border-radius: 70px;
+    background-color:white;
+    border-radius: 70%;
+    margin:20px 0 0 10px;
+    height: 100px;
 }
 
 .menu  {
@@ -85,6 +93,7 @@ h2 {
     height: 100px;
 }
 .header {
+    position: relative;
     height: 150px;
     background-image: url("../Images/menuBg.jpg");
 }
@@ -95,23 +104,41 @@ h2 {
 }
 .containerCatalog {
     background-color: #f3e3e36c;
- float: left;
+    float: left;
 }
 
 .productUnit {
-    width: 289px;
-    height: 250px;
+    position: relative;
+    width: 220px;
+    height: 200px;
     float: left;
-    margin: 15px;
+    margin: 6.1px;
     background-color: white;
     border:0.2px solid black;
-    border-radius: 20%;
 }
+.productUnit img { 
+    bottom: 30%;
+    left: 10%;
+    height: 40%;
+ 
+}
+.productUnit a{
+    bottom: 1%;
+    left: 15%;
+}
+
+.productUnit strong {
+    top:10%;
+}
+.productUnit a,
+.productUnit strong,
 .productUnit img {
-    width:95%;
-    height: 70%;
+    position: absolute;
+    left: 10%;
+    display: block;
 }
-.productUnit:nth-child(3n) {
+
+.productUnit:nth-child(4n) {
     margin-right: 0;
 }
 .productUnit:nth-child(1n) {
@@ -122,18 +149,9 @@ h2 {
     color:black;
 }
 
-.productUnit strong:hover {
+.productUnit a:hover {
     color:rgb(255, 94, 0);
 }
-
-/* 
-.productUnit:first-child {
-    background: #ff0000;
-}
-
-.productUnit:last-child {
-    background: #cc5a5a;
-} */
 
 .footer {
     height: 100px;
@@ -142,7 +160,7 @@ h2 {
     font:20px "Most Wanted Regular", serif;
 }
 
-.footer b{
+.footer b {
     float:right;
     margin: 30px;
 }
